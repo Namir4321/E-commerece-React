@@ -14,8 +14,8 @@ useEffect(()=>{
     try{
       
       const res = await axios.get(cat
-        ? `http://localhost:8080/api/products/search/all/product?categories[]=${cat}`
-        : "http://localhost:8080/api/products/search/all/product"
+        ? `${process.env.REACT_APP_BaseUrl}products/search/all/product?categories[]=${cat}`
+        : `${process.env.REACT_APP_BaseUrl}products/search/all/product`
         );
         
         setproducts(res.data)
