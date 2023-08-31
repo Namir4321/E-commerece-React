@@ -1,0 +1,42 @@
+.main_photo{
+    border-radius: 17px;
+    padding:10px;
+    max-height: 150px;
+}
+.btnprod{
+    /* margin-top: 10px; */
+    margin-right: 5px;
+    padding: 5px 10px;
+}
+.imgcont{
+    height: 200px;
+
+}
+.orderdetails{
+    color:white
+}
+.details{
+     margin-right: 10px;
+    justify-content: center;
+}
+.header-row{
+    /* height: 100px; */
+    background-color: teal;
+    border-top-left-radius: 10px;
+    border-top-right-radius:  10px ;
+}
+.maincontainer{
+    border:1px solid gray;
+    border-radius: 12px;
+}
+@media only screen and (min-width: 992px) {
+    .detailcontone{
+display: flex;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .details{
+        margin-top: 5px;
+       justify-content: start;
+   }
+}

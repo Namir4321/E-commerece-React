@@ -1,0 +1,36 @@
+.slider-container00{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    /* height:200px; */
+    position: relative;
+}
+.main-cont{
+    width: 100%;
+    height: 100vh;
+}
+
+.sliderwithwrappper{
+display: flex;
+height:100vh;
+width:100%;
+}
+.imageCont{
+flex:1;
+background-color: red;
+height: 100%;
+width:500;
+background-size:cover ;
+}
+.infoCont{
+flex:1;
+height:80%;
+background-color: blue;
+padding: 50px;
+}
+.information{
+align-items: center;
+justify-content: center;
+display: flex;
+
+}

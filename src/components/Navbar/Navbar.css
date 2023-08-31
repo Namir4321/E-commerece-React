@@ -1,0 +1,51 @@
+.search-field{
+justify-content: right;
+color: beige;
+margin-right:10px;
+position: relative;
+border: transparent;
+}
+.btn-search{
+position: absolute;
+}
+.searchbutton:hover{
+    color:black ;  
+}
+.brand{
+    font-family: 'GFS Didot', serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+@media (min-width: 768px) {
+.menuitem{
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 25px;
+}
+.search-field{
+    justify-content: right;
+    color: beige;
+    width:100%;
+    margin-right:20px;
+    position: relative;
+    border: transparent;
+    }
+    .btn-search{
+    position: absolute;
+    }
+
+}
+@media (max-width: 768px) {
+    /* For mobile phones: */
+    .menuitem {
+        /* margin-right: 3px; */
+      font-size: 12px;
+      margin-left: 1px;
+    }
+    .menuitem-reg{
+        /* font-size: 14px; */
+
+        margin-left: 35px;
+    }
+  }
+  
